@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#0b0b10, #1a1a2e);
+    color: #ba0caf;
+}
+
+a {
+    color: #b7a077;
+}
+
+a:hover {
+    color: #988564;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.title {
+    font-size: 80px;
+}
+
+header p {
+    font-size: 44px;
+    font-family: "Ma Shan Zheng", cursive;
+}
+
+header {
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    margin: 5px 0 10px;
+}
+
+#global_navi {
+    width: 980px;
+    margin: 16px auto;
+}
+
+#global_navi ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#global_navi ul li {
+    flex: 1;
+    text-align: center;
+}
+
+#global_navi ul li a {
+    display: block;
+    padding: 16px;
+    background-color: #352b23;
+    color: #fff;
+    text-decoration: none;
+}
+
+#global_navi ul li.current a {
+    background-color: #b7a077;
+}
+
+#main_visual {
+    width: 980px;
+    margin: 16px auto;
+}
+
+#wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#main h2 {
+    font-size: 22px;
+    border: 1px solid #b7a077;
+    padding: 11px 22px;
+    border-radius: 5px;
+}
